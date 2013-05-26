@@ -6,11 +6,9 @@ using System.Threading.Tasks;
 
 namespace SmartFileOAuth
 {
-    class OAuth
+    public class OAuth
     {
-
         string baseUrl;
-
         string requestUrl;
         string userAuthorizeUrl;
         string accessUrl;
@@ -29,6 +27,25 @@ namespace SmartFileOAuth
             Properties.Settings.Default.consumer_secret = consumer_secret;
             LoadSettings();
         }
+
+        #region Authorization Process
+
+        public void GetRequestToken()
+        {
+            throw new NotImplementedException();
+        }
+
+        public string GetAuthorizationUrl()
+        {
+            throw new NotImplementedException();
+        }
+
+        public void GetAccessToken(string verificationCode)
+        {
+            throw new NotImplementedException();
+        }
+
+        #endregion
 
         public void LoadSettings()
         {

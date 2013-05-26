@@ -3,3 +3,4 @@ C:\Users\Ryanb58\Documents\GitHub\client-csharp\SmartFileOAuth\bin\Debug\SmartFi
 C:\Users\Ryanb58\Documents\GitHub\client-csharp\SmartFileOAuth\obj\Debug\SmartFileOAuth.csprojResolveAssemblyReference.cache
 C:\Users\Ryanb58\Documents\GitHub\client-csharp\SmartFileOAuth\obj\Debug\SmartFileOAuth.dll
 C:\Users\Ryanb58\Documents\GitHub\client-csharp\SmartFileOAuth\obj\Debug\SmartFileOAuth.pdb
+C:\Users\Ryanb58\Documents\GitHub\client-csharp\SmartFileOAuth\bin\Debug\SmartFileOAuth.dll.config

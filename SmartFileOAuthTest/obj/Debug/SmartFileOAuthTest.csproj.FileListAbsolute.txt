@@ -1,0 +1,8 @@
+C:\Users\Ryanb58\Documents\GitHub\client-csharp\SmartFileOAuthTest\bin\Debug\SmartFileOAuthTest.exe.config
+C:\Users\Ryanb58\Documents\GitHub\client-csharp\SmartFileOAuthTest\bin\Debug\SmartFileOAuthTest.exe
+C:\Users\Ryanb58\Documents\GitHub\client-csharp\SmartFileOAuthTest\bin\Debug\SmartFileOAuthTest.pdb
+C:\Users\Ryanb58\Documents\GitHub\client-csharp\SmartFileOAuthTest\bin\Debug\SmartFileOAuth.dll
+C:\Users\Ryanb58\Documents\GitHub\client-csharp\SmartFileOAuthTest\bin\Debug\SmartFileOAuth.pdb
+C:\Users\Ryanb58\Documents\GitHub\client-csharp\SmartFileOAuthTest\obj\Debug\SmartFileOAuthTest.csprojResolveAssemblyReference.cache
+C:\Users\Ryanb58\Documents\GitHub\client-csharp\SmartFileOAuthTest\obj\Debug\SmartFileOAuthTest.exe
+C:\Users\Ryanb58\Documents\GitHub\client-csharp\SmartFileOAuthTest\obj\Debug\SmartFileOAuthTest.pdb
