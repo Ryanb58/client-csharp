@@ -1,0 +1,5 @@
+C:\Users\Ryanb58\Documents\GitHub\client-csharp\SmartFile\bin\Debug\SmartFile.dll
+C:\Users\Ryanb58\Documents\GitHub\client-csharp\SmartFile\bin\Debug\SmartFile.pdb
+C:\Users\Ryanb58\Documents\GitHub\client-csharp\SmartFile\obj\x86\Debug\SmartFile.csprojResolveAssemblyReference.cache
+C:\Users\Ryanb58\Documents\GitHub\client-csharp\SmartFile\obj\x86\Debug\SmartFile.dll
+C:\Users\Ryanb58\Documents\GitHub\client-csharp\SmartFile\obj\x86\Debug\SmartFile.pdb

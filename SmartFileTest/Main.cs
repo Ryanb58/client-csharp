@@ -16,13 +16,25 @@ namespace SmartFileTest
 			 * We expect command line arguments such as:
 			 * SmartFileTest.exe <method> <endpoint> [ <id> <name>=<value> ]
 			*/
-			if (args.Length < 3) {
-				Console.WriteLine ("You must provide an HTTP method and endpoint.");
-				return 1;
-			}
 
-			String method = args[0];
-			String endpoint = args[1];
+            String method;
+            String endpoint;
+
+            if (args.Length < 3)
+            {
+                Console.WriteLine("You must provide an HTTP method and endpoint.");
+                Console.WriteLine("Method:");
+                method = Console.ReadLine();
+                Console.WriteLine("Endpoint:");
+                endpoint = Console.ReadLine();
+            }
+            else
+            {
+                method = args[0];
+			    endpoint = args[1];
+            }
+
+			
 
 			BasicClient api = new BasicClient();
 

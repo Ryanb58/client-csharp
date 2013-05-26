@@ -1,0 +1,7 @@
+C:\Users\Ryanb58\Documents\GitHub\client-csharp\SmartFileTest\obj\x86\Debug\SmartFileTest.csprojResolveAssemblyReference.cache
+C:\Users\Ryanb58\Documents\GitHub\client-csharp\SmartFileTest\bin\Debug\SmartFileTest.exe
+C:\Users\Ryanb58\Documents\GitHub\client-csharp\SmartFileTest\bin\Debug\SmartFileTest.pdb
+C:\Users\Ryanb58\Documents\GitHub\client-csharp\SmartFileTest\bin\Debug\SmartFile.dll
+C:\Users\Ryanb58\Documents\GitHub\client-csharp\SmartFileTest\bin\Debug\SmartFile.pdb
+C:\Users\Ryanb58\Documents\GitHub\client-csharp\SmartFileTest\obj\x86\Debug\SmartFileTest.exe
+C:\Users\Ryanb58\Documents\GitHub\client-csharp\SmartFileTest\obj\x86\Debug\SmartFileTest.pdb
