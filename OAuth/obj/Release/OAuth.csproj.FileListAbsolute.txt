@@ -1,0 +1,6 @@
+C:\Users\Ryanb58\Documents\GitHub\oauth\bin\lib\net40\OAuth.xml
+C:\Users\Ryanb58\Documents\GitHub\oauth\bin\lib\net40\OAuth.dll
+C:\Users\Ryanb58\Documents\GitHub\oauth\bin\lib\net40\OAuth.pdb
+C:\Users\Ryanb58\Documents\GitHub\oauth\src\OAuth\obj\Release\OAuth.csprojResolveAssemblyReference.cache
+C:\Users\Ryanb58\Documents\GitHub\oauth\src\OAuth\obj\Release\OAuth.dll
+C:\Users\Ryanb58\Documents\GitHub\oauth\src\OAuth\obj\Release\OAuth.pdb

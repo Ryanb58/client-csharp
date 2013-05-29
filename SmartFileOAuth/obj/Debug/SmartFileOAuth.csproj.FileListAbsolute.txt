@@ -4,3 +4,5 @@ C:\Users\Ryanb58\Documents\GitHub\client-csharp\SmartFileOAuth\obj\Debug\SmartFi
 C:\Users\Ryanb58\Documents\GitHub\client-csharp\SmartFileOAuth\obj\Debug\SmartFileOAuth.dll
 C:\Users\Ryanb58\Documents\GitHub\client-csharp\SmartFileOAuth\obj\Debug\SmartFileOAuth.pdb
 C:\Users\Ryanb58\Documents\GitHub\client-csharp\SmartFileOAuth\bin\Debug\SmartFileOAuth.dll.config
+C:\Users\Ryanb58\Documents\GitHub\client-csharp\SmartFileOAuth\bin\Debug\OAuth.dll
+C:\Users\Ryanb58\Documents\GitHub\client-csharp\SmartFileOAuth\bin\Debug\OAuth.pdb

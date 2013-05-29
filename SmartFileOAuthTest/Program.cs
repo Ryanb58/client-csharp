@@ -13,8 +13,6 @@ namespace SmartFileOAuthTest
         {
             string consumer_key;
             string consumer_secret;
-            string request_token;
-            string request_secret;
             string access_token;
             string access_secret;
 
@@ -26,18 +24,28 @@ namespace SmartFileOAuthTest
 
             //Start the OAuth Process.
             OAuth con = new OAuth(consumer_key, consumer_secret);
-            
-            //Step 2) Obtain the request cred.
-            con.GetRequestToken();
 
-            //Get verificationCode back from user.
-            Console.WriteLine(con.GetAuthorizationUrl().ToString());
+            //Step 2) Obtain the Authorization URL.
+            Console.WriteLine(con.GetAuthorizationUrl());
+
+            //Step 3) Get verificationCode back from user.
+            Console.WriteLine("Verification Code:");
             string ver = Console.ReadLine();
 
-            //Step 3) Obtain the access cred.
-            con.GetAccessToken(ver);
+            //Step 4) Obtain the access credentials.
+            con.GetAccess(ver);
 
-            //Step 4) Do and API call.
+            //Step 5) Store away the access token and secret.
+            access_token = con.GetAccessToken().ToString();
+            access_secret = con.GetAccessSecret().ToString();
+
+            Console.WriteLine("Access Token : " + con.GetAccessToken().ToString());
+            Console.WriteLine("Access Secret : " + con.GetAccessSecret().ToString());
+            
+            //Step 6) API call.
+
+            Console.WriteLine("Press enter to quit...");
+            Console.ReadLine();
         }
     }
 }
