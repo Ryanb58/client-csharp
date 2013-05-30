@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using System.Net;
 using OAuth;
 using System.IO;
+using Newtonsoft.Json;
 
 namespace SmartFileOAuth
 {
@@ -115,6 +116,51 @@ namespace SmartFileOAuth
         #endregion
         
         #region Post, Get, Put, and Delete.
+
+        public void Post()
+        {
+            throw new NotImplementedException();
+        }
+        public dynamic Get(string endpoint)
+        {
+            //Make a protected resource call!
+
+            this.client = OAuthRequest.ForProtectedResource("GET", this.consumer_key, this.consumer_secret, this.access_token, this.access_secret);
+
+            //INSERT API Endpoint:
+            this.client.RequestUrl = this.baseUrl + endpoint;
+            //client.RequestUrl = baseUrl + "api/2/ping";
+
+            // Using URL query authorization
+            string auth = this.client.GetAuthorizationQuery();
+            var url = this.client.RequestUrl + "?" + auth;
+            var request = (HttpWebRequest)WebRequest.Create(url);
+            //request3.ContentType = "application/json; charset=utf-8";
+            var response = (HttpWebResponse)request.GetResponse();
+
+            //Console.WriteLine(StreamToString(response3.GetResponseStream()));
+
+            string json = StreamToString(response.GetResponseStream());
+
+            //Read the JSON from the string.
+            JsonTextReader reader = new JsonTextReader(new StringReader(json));
+
+            //Serialize the JSON text.
+            JsonSerializer se = new JsonSerializer();
+
+            //Deserialize the text and place in dynamic type, for easy manipulation.
+            dynamic parsedData = se.Deserialize(reader);
+
+            return parsedData;
+        }
+        public void Put()
+        {
+            throw new NotImplementedException();
+        }
+        public void Delete()
+        {
+            throw new NotImplementedException();
+        }
 
         #endregion
 

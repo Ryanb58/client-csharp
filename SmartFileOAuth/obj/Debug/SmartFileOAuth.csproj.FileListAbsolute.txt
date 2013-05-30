@@ -6,3 +6,5 @@ C:\Users\Ryanb58\Documents\GitHub\client-csharp\SmartFileOAuth\obj\Debug\SmartFi
 C:\Users\Ryanb58\Documents\GitHub\client-csharp\SmartFileOAuth\bin\Debug\SmartFileOAuth.dll.config
 C:\Users\Ryanb58\Documents\GitHub\client-csharp\SmartFileOAuth\bin\Debug\OAuth.dll
 C:\Users\Ryanb58\Documents\GitHub\client-csharp\SmartFileOAuth\bin\Debug\OAuth.pdb
+C:\Users\Ryanb58\Documents\GitHub\client-csharp\SmartFileOAuth\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Ryanb58\Documents\GitHub\client-csharp\SmartFileOAuth\bin\Debug\Newtonsoft.Json.xml

@@ -8,3 +8,5 @@ C:\Users\Ryanb58\Documents\GitHub\client-csharp\SmartFileOAuthTest\obj\Debug\Sma
 C:\Users\Ryanb58\Documents\GitHub\client-csharp\SmartFileOAuthTest\obj\Debug\SmartFileOAuthTest.pdb
 C:\Users\Ryanb58\Documents\GitHub\client-csharp\SmartFileOAuthTest\bin\Debug\OAuth.dll
 C:\Users\Ryanb58\Documents\GitHub\client-csharp\SmartFileOAuthTest\bin\Debug\OAuth.pdb
+C:\Users\Ryanb58\Documents\GitHub\client-csharp\SmartFileOAuthTest\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Ryanb58\Documents\GitHub\client-csharp\SmartFileOAuthTest\bin\Debug\Newtonsoft.Json.xml

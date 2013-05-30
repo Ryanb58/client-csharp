@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using SmartFileOAuth;
+using System.Diagnostics;
 
 namespace SmartFileOAuthTest
 {
@@ -26,7 +27,9 @@ namespace SmartFileOAuthTest
             OAuth con = new OAuth(consumer_key, consumer_secret);
 
             //Step 2) Obtain the Authorization URL.
-            Console.WriteLine(con.GetAuthorizationUrl());
+            string getAuthUrl = con.GetAuthorizationUrl();
+            Console.WriteLine(getAuthUrl);
+            Process.Start(getAuthUrl);
 
             //Step 3) Get verificationCode back from user.
             Console.WriteLine("Verification Code:");
@@ -43,7 +46,10 @@ namespace SmartFileOAuthTest
             Console.WriteLine("Access Secret : " + con.GetAccessSecret().ToString());
             
             //Step 6) API call.
+            dynamic jsonObj = con.Get("api/2/ping");
+            Console.WriteLine("Ping: " + jsonObj.ping.ToString());
 
+            // Close the application.
             Console.WriteLine("Press enter to quit...");
             Console.ReadLine();
         }
